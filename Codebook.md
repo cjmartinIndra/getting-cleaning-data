@@ -101,8 +101,7 @@ variables are averaged for each activity and each subject.
 The tidy data set contains 180 observations with 68 variables divided in:
 
 *  an activity label (__Activity__): WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-*  an identifier of the subject who carried out the experiment (__Subject__):
-   1, 3, 5, 6, 7, 8, 11, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 28, 29, 30
+*  an identifier of the subject who carried out the experiment (__Subject__)
 *  a 66-feature vector with time and frequency domain signal variables (numeric)
 
 ### Variables in raw and tidy data set
