@@ -99,8 +99,8 @@ set_labels<-function(dataset) {
 create_tidy_dataset<-function(dataset) {
   molten_data <- melt(dataset, id=c("Activity", "Subject"))
   dataset<-cast(molten_data, Activity +  Subject ~ variable, mean)
-  str(dataset)
-  write.table(dataset, file = "tidy_dataset.txt")
+  #str(dataset)
+  write.table(dataset, file = "tidy_dataset.txt", row.name=FALSE)
 }
 
 run_analysis<-function(){
