@@ -31,7 +31,7 @@ download_data() # download samsung data and unzip it
 run_analysis() # invoke the actual function
 ```
 
-If you don't want to use `download_data()`, you should download the samsung data
+If you don't want to use `download_data()`, you should download the Samsung data
 manually, unzip it in the current directory and then run:
 
 ```r
